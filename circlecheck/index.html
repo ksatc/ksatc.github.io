@@ -67,6 +67,11 @@
       left: 50px;
     }
 
+    .slim-app-link {
+      display: none;
+      position: relative;
+    }
+
     @media (min-width:768px) and (max-width:1040px) {
       .app-link-area {
         height: 440px;
@@ -97,6 +102,24 @@
       #paid-app-link{
         left: 30px;
       }
+
+      .slim-app-link {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+
+
+      .slim-app-link {
+        display: block;
+        font-size: 75%
+      }
+
+      .app-link-area {
+        display: none;
+      } 
+
     }
   </style>
 
@@ -138,7 +161,7 @@
         <div id="free-app-link" class="app-link">
           <div class="app-link-tag">
              <a href="https://itunes.apple.com/jp/app/circlecheck-lite-komikekatarogubyuwa/id896613746?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-          <div class="app-link-name">無料版(※一部機能制限あり)</div>
+          <div class="app-link-name">無料版(※Webカタログ非対応)</div>
           </div>
         </div>
       </div>
@@ -146,17 +169,33 @@
     </div>
     <!-- <div class="header-image-mask"></div> -->
 
-
   </section>
 
   <div class="section-wrapper">
-    <section style="display:none;" class="section"></section>
+    <section class="section slim-app-link">
+
+        <div id="paid-app-link" class="app-link">
+          <div class="app-link-tag">
+            <a href="https://itunes.apple.com/jp/app/circlecheck-komikekatarogubyuwa/id896601848?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+          </div>
+          <div class="app-link-name">有料版</div>
+        </div>
+        <div id="free-app-link" class="app-link">
+          <div class="app-link-tag">
+             <a href="https://itunes.apple.com/jp/app/circlecheck-lite-komikekatarogubyuwa/id896613746?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+          <div class="app-link-name">無料版(※Webカタログ非対応)</div>
+          </div>
+       
+
+
+    </section>
+
     <section id="spec" class="section">
       <div class="content">
         
           <h2>コミケ経験者におすすめのアプリ!</h2>
           <p class="introduction">
-            こんなアプリが欲しかった！<br>コミケ歴1X年の俺が考えたカタログチェックアプリ。<br>いままで時間がかかったカタログチェックをどこでもいつでもできる！
+            こんなアプリが欲しかった！<br>コミケ歴1X年の俺が考えたカタログチェックアプリ。<br>いままで時間がかかったカタログチェックをいつでもどこでもできる！
           </p>
         
 
@@ -198,8 +237,8 @@
             </li>
 
             <li>
-              <span class="title">サークル詳細画面からサークルのHPをチェック</span>
-              <span class="meta">詳細画面からサークルのサイトに閲覧可能。URLが登録してないサークルもサークル名とペンネームをgoogle検索ができます</span>
+              <span class="title">サークル詳細画面からPixiv/Twitterをチェック</span>
+              <span class="meta">アプリから直接Pixiv/Twitterの起動が可能！最新情報をさくさくゲット！</span>
             </li>
 
         </ol>
