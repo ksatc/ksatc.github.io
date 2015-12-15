@@ -1,0 +1,116 @@
+@charset "UTF-8";
+ 
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+
+body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+.app-header {
+    padding: 10px 0 0 0;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+	text-align : center;
+}
+ 
+.app-header img.app-icon {
+	margin-top:20px;
+	width:60px;
+ 	height : auto;
+	border:2px solid #ccc;
+	border-radius: 12px;    
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+ 
+.app-header h1 {
+	margin-top : 10px;
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+ 
+.app-header p {
+	font-size: 20px;
+}
+
+.share-area {
+	padding: 10px 0;
+}
+
+.app-header .image-area img {
+	max-width : 80%;
+}
+
+.app-appeal h2 {
+	text-align : center;
+}
+.other-detail dt {
+	font-size : 17px;
+}
+.other-detail dd {
+	margin-bottom:8px;
+}
+
+.footer p.copyright {
+	margin-top : 30px;	
+}
+
+div.store-link {
+	padding : 10px 0 30px;	
+}
+
+@media (max-width: 768px) {	
+	.other-detail dd {
+		margin-left:6px;
+	}
+	 .app-appeal  {
+		text-align : center;
+	 }
+
+	 .app-appeal img {
+	 	width : 150px;
+	 	height : auto;
+	 }
+}
+
+@media (min-width: 768px) {
+	.app-header {
+		text-align : left;
+	}
+	.app-header img.app-icon {
+		margin-top:60px;
+		width:80px;
+		border-radius: 15px; 
+		display : inline;
+	}
+	.app-header h1 {
+		font-size: 60px;
+	}
+	
+	.app-header .share-area {
+		padding: 30px 0 20px;
+	}
+}
+
+@media (max-width: 992px) {
+	 .app-appeal h2 {
+	 	font-size: 24px;
+	 }
+}
+
+@media (min-width: 992px) {
+	.app-header .title-area {
+		padding-left : 80px;
+	}
+	.app-header .image-area {
+		padding-right : 50px;
+	}
+}
+@media (min-width: 1200px) {
+	.app-header .title-area {
+		padding-left : 170px;
+	}
+	.app-header .image-area {
+		padding-right : 150px;
+	}
+}
