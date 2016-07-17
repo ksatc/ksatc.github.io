@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    postion:relative;
+}
+
+.header .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #59b799;
+    margin-bottom: 20px;
+}
+
+.app-header {
+    padding: 10px 0 10px 0;
+    color: white;
+}
+ 
+.app-header img.app-icon {
+	margin-top:20px;
+	width:80px;
+ 	height : auto;
+	border:1px solid #ccc;
+	border-radius: 12px;    
+	display: block;
+    
+}
+ 
+.app-header h1 {
+    font-family: 'Coda', cursive;
+}
+
+.app-header .title-area {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.app-header .desc {
+    line-height: 100%;
+    font-size: 1.5rem;
+}
+
+.app-header .recomend {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.app-header .share-area {
+    padding: 10px 0 0 20px;
+}
+
+.app-header .image-area .back-image {
+    background-image: url(img/iphone-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.app-header .image-area img {
+	position: relative;
+    top: 91px;
+}
+
+.gif-image {
+	position: relative;
+    top: 73px;
+    height: 362px;
+    background-image: url(img/check-demo.gif);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (max-width: 47.9em) {
+	.app-header img.app-icon {
+		width:60px;
+		border-radius: 15px; 
+        margin: 0 auto;
+	}
+    
+	.app-header .share-area {
+        padding: 10px 0 0 0;
+        text-align: center;
+	}
+}

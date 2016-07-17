@@ -1,292 +1,134 @@
 <!DOCTYPE html>
-<!--
-  Theme: Tokusetsu 2
-  by @sanographix
-  http://www.sanographix.net
-  (c) 2013 Showkaku Sano
-  Free to use under the MIT license.
-  Please leave at least ONE credit link. Do not delete this box.
--->
-
-<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>iPhone用コミケカタログアプリ”CircleCheck”</title>
+    <meta name="description" content="CircleCheck,コミックマーケット,コミケ,iPhone,アプリ,C86" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="canonical" href="http://ksatc.github.io/circlecheck/">
 
-  <title>iPhone用コミケカタログアプリ”CircleCheck”</title>
-
-
-  <meta name="description" content="CircleCheck,コミックマーケット,コミケ,iPhone,アプリ,C86" />
-
-  <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="//sanographix.github.io/public/tumblr/tokusetsu2/css/style.css" />
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,300italic' rel='stylesheet' type='text/css'>
-  <link rel="canonical" href="http://ksatc.github.io/">
-
-  <!--[if lt IE 9]>
-    <script src="//sanographix.github.io/public/tumblr/tokusetsu2/js/html5shiv.js"></script>
-  <![endif]-->
-
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-53463106-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-  <style>
-
-    .app-link-area {
-      position: relative;
-      max-width: 1040px;
-      height: 600px;
-      margin: 0 auto;
-      bottom : 10px;
-    }
-    .app-link{
-      color :white;
-      position: absolute;
-      width : 180px;
-      bottom: 80px;
-      text-align: left;
-    } 
-    .app-link .app-link-name{
-      padding-left: 10px;
-    } 
-
-    #free-app-link{
-      width : 300px;
-      left: 230px;
-    }
-    #paid-app-link{
-      left: 50px;
-    }
-
-    .slim-app-link {
-      display: none;
-      position: relative;
-    }
-
-    @media (min-width:768px) and (max-width:1040px) {
-      .app-link-area {
-        height: 440px;
-        max-width: 765px;
-      }
-      .app-link{
-        bottom: 10px;
-      } 
-    }
-
-    @media (max-width:767px) {
-      .app-link-area {
-        height: 340px;
-        max-width: 590px;
-        font-size: 85%
-      }
-      .app-link .app-link-name{
-        padding-left: 0;
-      } 
-      .app-link{
-        bottom: 5px;
-      } 
-
-      #free-app-link{
-        width : 300px;
-        left: 180px;
-      }
-      #paid-app-link{
-        left: 30px;
-      }
-
-      .slim-app-link {
-        display: none;
-      }
-    }
-
-    @media (max-width: 480px) {
-
-
-      .slim-app-link {
-        display: block;
-        font-size: 75%
-      }
-
-      .app-link-area {
-        display: none;
-      } 
-
-    }
-  </style>
-
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-53463106-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </head>
-<body class="green">
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="container">
+                <div class="row app-header">
+                    <div class="col-sm-12 col-md-7">
+                        <img src="img/app-icon.png" alt="app-icon" title="app-icon" width="120" height="120" class="app-icon"/>
+                            <h1 class="display-4">CircleCheck</h1>
+                            <div class="title-area">
+                                <p class="desc">コミケ<small>の</small>チェック<small>を</small>いつでもどこでも</p>
+                                
+                                <p class="recomend">こんな人におすすめ！</p>
+                                <ul>
+                                    <li>忙しくてチェックしてる時間がない！</li>
+                                    <li>サークルをひと通りチュックしたい！</li>
+                                    <li>チェックするサークルが100以上ある！</li>
+                                </ul>
+                        </div>
+                        <div class="share-area">
+                            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-lang="ja" data-hashtags="コミケ">ツイート</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-    <header id="globalheader">
-    <div class="globalheader-inner content">
-      <h1>
-        <a href="/">CircleCheck</a>
-      </h1>
-      <!--
-      <nav class="header-nav">
-        <ul>
-            <li>
-              <a href="#tracklist">機能</a>
-            </li>
-            <li>
-              <a href="#youtube">CM</a>
-            </li>
-        </ul>
-      </nav>
-    -->
+                            <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+                            <div>
+                                <a href="https://itunes.apple.com/jp/app/circlecheck-komikekatarogubyuwa/id896601848?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-5 image-area">
+                        <div class="back-image">
+                            <div class="gif-image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
 
-
-  <section id="header-image">
-    <div class="header-image-content" style="background-image:url('img/header.png');">
-
-      <div class="app-link-area">
-
-        <div id="paid-app-link" class="app-link">
-          <div class="app-link-tag">
-            <a href="https://itunes.apple.com/jp/app/circlecheck-komikekatarogubyuwa/id896601848?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-          </div>
-          <div class="app-link-name">有料版</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>コミケ経験者におすすめのアプリ</h2>
+                <p>こんなアプリが欲しかった！<br>コミケ歴1X年の俺が考えたカタログチェックアプリ。<br><strong>いままで時間がかかったカタログチェックをいつでもどこでもできる！</strong></p>
+            </div>
         </div>
-        <div id="free-app-link" class="app-link">
-          <div class="app-link-tag">
-             <a href="https://itunes.apple.com/jp/app/circlecheck-lite-komikekatarogubyuwa/id896613746?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-          <div class="app-link-name">無料版(※Webカタログ非対応)</div>
-          </div>
-        </div>
-      </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h3>機能</h3>
+                
+                <h4>起動したら即チェック</h4>
+                <p>CircleCheckは起動したら最後に表示したサークルから表示するので起動してすぐにチェックができます。</p>
+            
+                <h4>左右スワイプでラクラク移動</h4>
+                <p>TOP画面でサークルカットを左右にスワイプか＜＞ボタンタップで前後のサークルにサクサク移動でき手軽サークルをチェックできます。</p>
+            
+                <h4>チェックリスト登録をワンタップ！</h4>
+                <p>チェックボタンをタップすることで簡単にチェックリストに登録できます。</p>
+            
+                <h4>ブロック・ジャンル一覧から目的のブロックに移動</h4>
+                <p>壁サークルを優先的にチェックしたい！お気に入りのジャンルをまずはチェックしたい！そんなときに便利です。</p>
+            
+                <h4>サークル検索機能も完備！</h4>
+                <p>サークル名検索ができるのでネットで見かけたサークル名やいつも買っているサークルさんをチェックするのに便利！</p>
+            
+                <h4>Webカタログ連携</h4>
+                <p>Webカタログとチェックリストを連携ができるので、ブラウザからiPhoneから自由にチェックができます。</p>
+            
+                <h4>Pixiv/Twitterをチェック</h4>
+                <p>アプリから直接Pixiv/Twitterの起動が可能！最新情報をさくさくゲット！</p>
+            </div>
+        </div>
+
+
+		<hr class="featurette-divider">
+		
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div class="store-link">
+					<p><strong>ダウンロードはこちらから！</strong></p>
+					<a href="https://itunes.apple.com/jp/app/circlecheck-komikekatarogubyuwa/id896601848?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
+				</div>
+			</div>
+		</div>
+        
+        <hr class="featurette-divider">
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                    <h5>サポート</h5>
+                    <p>ご意見・バグなどは<a href="https://docs.google.com/forms/d/1DcqzrjJJc6gArLd0d8L0_8WNOc3nGromCeirhaZM4Eg/viewform?usp=send_form" target="_blank">こちら</a>からお願いします</p>
+
+                <div class="share-area">
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-lang="ja" data-hashtags="コミケ">ツイート</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+                </div>
+
+                <p class="copyright">©2014 <a href="https://twitter.com/k_sat_c" target="_blrank">@ksatc</a></p>
+            </div>
+        </div>    
     </div>
-    <!-- <div class="header-image-mask"></div> -->
-
-  </section>
-
-  <div class="section-wrapper">
-    <section class="section slim-app-link">
-
-        <div id="paid-app-link" class="app-link">
-          <div class="app-link-tag">
-            <a href="https://itunes.apple.com/jp/app/circlecheck-komikekatarogubyuwa/id896601848?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-          </div>
-          <div class="app-link-name">有料版</div>
-        </div>
-        <div id="free-app-link" class="app-link">
-          <div class="app-link-tag">
-             <a href="https://itunes.apple.com/jp/app/circlecheck-lite-komikekatarogubyuwa/id896613746?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-          <div class="app-link-name">無料版(※Webカタログ非対応)</div>
-          </div>
-       
-
-
-    </section>
-
-    <section id="spec" class="section">
-      <div class="content">
-        
-          <h2>コミケ経験者におすすめのアプリ!</h2>
-          <p class="introduction">
-            こんなアプリが欲しかった！<br>コミケ歴1X年の俺が考えたカタログチェックアプリ。<br>いままで時間がかかったカタログチェックをいつでもどこでもできる！
-          </p>
-        
-
-      </div>
-    </section>
-
-    <section id="tracklist" class="section">
-      <div class="content">
-        <h3>機能</h3>
-        <ol class="list">
-
-            <li>
-              <span class="title">起動したら即チェック</span>
-              <span class="meta">"CircleCheck"は起動したら前回チェックしたサークルから表示するので起動してすぐにカタログチェックができます</span>
-            </li>
-            <li>
-              <span class="title">左右スワイプでのサークルを移動</span>
-              <span class="meta">TOP画面でサークルカットを左右にスワイプか＜＞ボタンタップで前後のサークルにサクサク移動でき手軽サークルをチェックできます</span>
-            </li>
-
-            <li>
-              <span class="title">チェックリスト登録がボタン一発！</span>
-              <span class="meta">チェックボタンをタップすることで一発で簡単にチェックリストに登録できます</span>
-            </li>
-
-            <li>
-              <span class="title">ブロック・ジャンル一覧から目的のブロックに移動</span>
-              <span class="meta">壁サークルを優先的にチェックしたい！お気に入りのジャンルをまずはチェックしたい！</span>
-            </li>
-
-            <li>
-              <span class="title">サークル検索機能ももちろん完備！</span>
-              <span class="meta">サークル名検索ができるのでネットで見かけたサークル名やいつも買っているサークルさんをチェックするのに便利！</span>
-            </li>
-
-            <li>
-              <span class="title">チェックリストの書き出し・読み込みでWEBカタログとも連携も(※)</span>
-              <span class="meta">CircleCheckでチェックしたサークル情報をファイルに保存してPCのカタログブラウザやWEBブラウザで使えます<br>※有料版のみの機能です</span>
-            </li>
-
-            <li>
-              <span class="title">サークル詳細画面からPixiv/Twitterをチェック</span>
-              <span class="meta">アプリから直接Pixiv/Twitterの起動が可能！最新情報をさくさくゲット！</span>
-            </li>
-
-        </ol>
-      </div>
-    </section>
-
-    <section id="youtube" class="section">
-      <div class="content">
-        <h3>CM</h3>
-        <div id="youtube-iframe">
-          <iframe width="560" height="315" src="http://www.youtube.com/embed/RQwEZgv_Szc" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-
-    <section id="suport" class="section">
-      <div class="content">
-        <h3>サポート</h3>
-        <p>ご意見・バグなどは<a href="https://docs.google.com/forms/d/1DcqzrjJJc6gArLd0d8L0_8WNOc3nGromCeirhaZM4Eg/viewform?usp=send_form" target="_blank">こちら</a>からお願いします</p>
-      </div>
-    </section>
-
-  </div>
- 
-  <footer id="footer">
-    <div class="content">
-
-        <ul class="social-buttons">
-          <li class="social-button">
-            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          </li>
-          <li class="social-button">
-            <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-          </li>
-        </ul>
-        
-      <p>
-        ©2014 ksatc
-      </p>
-      <p>
-      <!-- ↓ ここのリンク消さないでほしいっす -->
-        <a href="http://sanographix.github.io/tumblr/tokusetsu2/" target="_blank">Tokusetsu 2</a> theme designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a>
-      </p>
-    </div>
-  </footer>
-
-  <script src="//sanographix.github.io/public/tumblr/tokusetsu2/js/tokusetsu2-js.min.js"></script>
-
 </body>
 </html>
