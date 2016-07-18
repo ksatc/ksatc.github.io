@@ -44,14 +44,14 @@ body {
     font-family: 'Coda', cursive;
 }
 
-.title-area {
-    text-align: left;
+.text-area {
     padding-left: 20px;
 }
 
 .app-header .desc {
     line-height: 100%;
     font-size: 1.5rem;
+    padding-left: 20px;
 }
 
 .app-header .recomend {
@@ -120,11 +120,19 @@ body {
 		border-radius: 15px; 
         margin: 0 auto;
 	}
+
+    .app-header .desc {
+        padding-left: 0;
+    }
     
 	.app-header .share-area {
         padding: 10px 0 0 0;
         text-align: center;
 	}
+    
+    .app-header .text-area {
+        padding-left: 0;
+    }
     
     .app-desc {
         padding: 5px 0 0 0;
