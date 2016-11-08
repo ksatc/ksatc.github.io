@@ -90,7 +90,7 @@ body {
 }
 
 .gif-image.pixiv {
-    background-image: url(img/check-pixiv.gif);
+    background-image: url(img/check-pixiv.gif?v=20161108);
     left: -1.6px;
 }
 
