@@ -2,14 +2,32 @@
  
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 
-body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+body {
+    font-family:  'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    color: #444;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.wrapper.silk {
+    background-color: #f8f8f8;
+}
 
 .app-header {
     padding: 10px 0 0 0;
     margin-bottom: 20px;
     border: 0;
     border-bottom: 1px solid #eee;
-	text-align : center;
 }
  
 .app-header img.app-icon {
@@ -37,19 +55,15 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 	padding: 10px 0;
 }
 
-.app-header .image-area img {
-	max-width : 80%;
+.other-content {
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 
-.app-appeal h2 {
-	text-align : center;
+.other-content p {
+    margin-bottom: 0.5rem;
 }
-.other-detail dt {
-	font-size : 17px;
-}
-.other-detail dd {
-	margin-bottom:8px;
-}
+
 
 .footer p.copyright {
 	margin-top : 30px;	
@@ -59,24 +73,89 @@ div.store-link {
 	padding : 10px 0 30px;	
 }
 
-@media (max-width: 768px) {	
-	.other-detail dd {
-		margin-left:6px;
-	}
-	 .app-appeal  {
-		text-align : center;
-	 }
 
-	 .app-appeal img {
-	 	width : 150px;
-	 	height : auto;
-	 }
+.image-area .back-image {
+    background-image: url(img/ipad-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+	position: relative;
+}
+
+.image-area .app-main-image {
+    background-image: url(img/app2_header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 500px;
+    max-height: 600px;
+	position: relative;
+}
+
+.image-area .check-app-image {
+    background-image: url(img/iphone-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+
+.gif-image {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    width: 78%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gif-image.move {
+    background-image: url(img/map-circle-move.gif);
+}
+
+.gif-image.layout {
+    background-image: url(img/map-circle-layout.gif);
+}
+
+.gif-image.save {
+    background-image: url(img/map-circle-save.gif);
+}
+
+.app-desc {
+    padding: 30px 0 0 0;
+    display: table;
+    height: 400px;
+}
+
+.app-desc > .inner {
+    display:table-cell;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 768px) {	
+    
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .app-desc {
+        padding: 10px 0 0 0;
+        height: auto;
+    }
+    .image-area .app-main-image {
+        min-height: 400px;
+        max-height: 400px;
+    }
 }
 
 @media (min-width: 768px) {
-	.app-header {
-		text-align : left;
-	}
 	.app-header img.app-icon {
 		margin-top:60px;
 		width:80px;
@@ -86,16 +165,6 @@ div.store-link {
 	.app-header h1 {
 		font-size: 60px;
 	}
-	
-	.app-header .share-area {
-		padding: 30px 0 20px;
-	}
-}
-
-@media (max-width: 992px) {
-	 .app-appeal h2 {
-	 	font-size: 24px;
-	 }
 }
 
 @media (min-width: 992px) {
