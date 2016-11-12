@@ -126,6 +126,9 @@ div.store-link {
 .gif-image.save {
     background-image: url(img/map-circle-save.gif);
 }
+.gif-image.list {
+    background-image: url(img/map-circle-list.gif)
+}
 
 .app-desc {
     padding: 30px 0 0 0;
@@ -136,6 +139,7 @@ div.store-link {
 .app-desc > .inner {
     display:table-cell;
     vertical-align: middle;
+    text-align: justify;
 }
 
 
