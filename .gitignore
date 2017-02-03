@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/*
+circlecheck/temp
+circlemap/temp
+!.gitkeep
