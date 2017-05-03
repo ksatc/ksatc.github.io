@@ -88,6 +88,7 @@ body {
 		background-position: center;
 		height: 500px;
 	}
+	
 	.map-app-image {
 		background-image: url(img/map-image.png);
 		background-size: contain;
@@ -97,33 +98,14 @@ body {
 	}
 }
 
-
-.gif-image {
-	position: relative;
-	top: 73px;
+.app-movie {
+	position: absolute;
 	height: 362px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-
-	&.demo {
-		background-image: url(img/check-demo.gif?v=20161219);
-	}
-
-	&.setup {
-		background-image: url(img/check-setup-demo.gif?v=20161219);
-		left: -1.6px;
-	}
-
-	&.pixiv {
-		background-image: url(img/check-pixiv.gif?v=20161219);
-		left: -1.6px;
-	}
-
-	&.map {
-		background-image: url(img/check-map.gif?v=20161223);
-		left: -1.6px;
-	}
+    margin: auto;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
