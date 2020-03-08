@@ -6,7 +6,9 @@ var gulp = require("gulp"),
     plumber = require("gulp-plumber");
 
 // dir setting
-var list = [{name:'circlecheck', path:'./circlecheck'}, {name:'circlemap', path:'./circlemap'}];
+var list = [{name:'circlecheck', path:'./circlecheck'}, 
+            {name:'circlemap', path:'./circlemap'},
+            {name:'kantimer', path:'./kantimer'}];
 
 function taskAdd(app) {
 
@@ -22,11 +24,11 @@ function taskAdd(app) {
       .pipe( rename({
         extname: '.css'
       }) )
-      .pipe( gulp.dest(tempDir) );
+      .pipe( gulp.dest(baseDir) );
   });
 
-  gulp.task(appName + ':sass:min', [appName + ':sass'], function() {
-    return gulp.src( tempDir + '*.css' )
+  gulp.task(appName + ':sass:min', gulp.series(appName + ':sass'), function() {
+    return gulp.src( baseDir + '*.css' )
       .pipe( minifyCss() )
       .pipe( rename({
         extname: '.min.css'
@@ -34,8 +36,8 @@ function taskAdd(app) {
       .pipe( gulp.dest(baseDir) );
   });
 
-  gulp.task(appName + ':sass:watch', [appName + ':sass:min'], function() {
-    var watcher = gulp.watch( sassDir, [appName + ':sass:min']);
+  gulp.task(appName + ':sass:watch', gulp.series(appName + ':sass:min'), function() {
+    var watcher = gulp.watch( sassDir, gulp.task(appName + ':sass:min'));
   });
 }
 
