@@ -5,72 +5,72 @@
 $textColor : #333;
 
 body {
-    font-family:  'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
-    color: $textColor;
+	font-family:  'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+	color: $textColor;
 }
 
 .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    .text-center {
-        text-align: center;
-    }
+	padding-top: 20px;
+	padding-bottom: 20px;
+	.text-center {
+		text-align: center;
+	}
 }
 
 .wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 20px;
-
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	
 	&.green {
-	    background-color: #59b799;
+		background-color: #59b799;
 	}	
 	&.silk {
-	    background-color: #f8f8f8;
+		background-color: #f8f8f8;
 	}
-
+	
 	&.footer {
-	    background-color: #efefef;
-
+		background-color: #efefef;
+		
 		img.app-icon {
 			margin-top:40px;
 			width:90px;
-		 	height : auto;
+			height : auto;
 		}
 	}
-
+	
 }
 
 
 .app-header {
 	color: white;
 	img {
-        &.app-icon {
-            margin-top:20px;
-            width:80px;
-            height : auto;
-            border:1px solid #ccc;
-            border-radius: 12px;    
-            display: block;
-        }
+		&.app-icon {
+			margin-top:20px;
+			width:80px;
+			height : auto;
+			border:1px solid #ccc;
+			border-radius: 12px;    
+			display: block;
+		}
 	}
-
+	
 	h1 {
 		font-family: 'Coda', cursive;
 	}
-
+	
 	.desc {
 		line-height: 100%;
 		font-size: 1.5rem;
 		padding-left: 20px;
 	}
-
+	
 	.recomend {
 		font-size: 1.25rem;
 		margin-bottom: 0;
 	}
-
+	
 	.share-area {
 		padding: 10px 0 0 20px;
 	}
@@ -101,11 +101,11 @@ body {
 .app-movie {
 	position: absolute;
 	height: 362px;
-    margin: auto;
-    top: 8px;
-    bottom: 0;
-    left: -3px;
-    right: 0;
+	margin: auto;
+	top: 8px;
+	bottom: 0;
+	left: -3px;
+	right: 0;
 }
 
 
@@ -154,7 +154,7 @@ $small: "(max-width: 47.9em)";
 			padding-left: 0;
 		}
 	}
-
+	
 	.app-desc {
 		padding: 5px 0 0 0;
 		height: auto;
@@ -163,5 +163,5 @@ $small: "(max-width: 47.9em)";
 			height: auto;
 		}
 	}
-
+	
 }

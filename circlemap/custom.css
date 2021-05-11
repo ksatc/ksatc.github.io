@@ -1,5 +1,5 @@
 @charset "UTF-8";
- 
+
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 
 body {
@@ -29,30 +29,30 @@ body {
     border: 0;
     border-bottom: 1px solid #eee;
 }
- 
+
 .app-header img.app-icon {
-	margin-top:20px;
-	width:60px;
- 	height : auto;
-	border:2px solid #ccc;
-	border-radius: 12px;    
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+    margin-top:20px;
+    width:60px;
+    height : auto;
+    border:2px solid #ccc;
+    border-radius: 12px;    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
- 
+
 .app-header h1 {
-	margin-top : 10px;
-	font-size: 40px;
-	font-family: 'Ubuntu', sans-serif;
+    margin-top : 10px;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
- 
+
 .app-header p {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .share-area {
-	padding: 10px 0;
+    padding: 10px 0;
 }
 
 .other-content {
@@ -66,11 +66,11 @@ body {
 
 
 .footer p.copyright {
-	margin-top : 30px;	
+    margin-top : 30px;	
 }
 
 div.store-link {
-	padding : 10px 0 30px;	
+    padding : 10px 0 30px;	
 }
 
 
@@ -80,7 +80,7 @@ div.store-link {
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-	position: relative;
+    position: relative;
 }
 
 .image-area .app-main-image {
@@ -90,7 +90,7 @@ div.store-link {
     background-position: bottom;
     min-height: 500px;
     max-height: 600px;
-	position: relative;
+    position: relative;
 }
 
 .image-area .check-app-image {
@@ -160,30 +160,30 @@ div.store-link {
 }
 
 @media (min-width: 768px) {
-	.app-header img.app-icon {
-		margin-top:60px;
-		width:80px;
-		border-radius: 15px; 
-		display : inline;
-	}
-	.app-header h1 {
-		font-size: 60px;
-	}
+    .app-header img.app-icon {
+        margin-top:60px;
+        width:80px;
+        border-radius: 15px; 
+        display : inline;
+    }
+    .app-header h1 {
+        font-size: 60px;
+    }
 }
 
 @media (min-width: 992px) {
-	.app-header .title-area {
-		padding-left : 80px;
-	}
-	.app-header .image-area {
-		padding-right : 50px;
-	}
+    .app-header .title-area {
+        padding-left : 80px;
+    }
+    .app-header .image-area {
+        padding-right : 50px;
+    }
 }
 @media (min-width: 1200px) {
-	.app-header .title-area {
-		padding-left : 170px;
-	}
-	.app-header .image-area {
-		padding-right : 150px;
-	}
+    .app-header .title-area {
+        padding-left : 170px;
+    }
+    .app-header .image-area {
+        padding-right : 150px;
+    }
 }
