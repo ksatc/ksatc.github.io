@@ -1,17 +1,13 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Coda);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
   color: #333;
 }
 
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.container .text-center {
-  text-align: center;
 }
 
 .wrapper {
@@ -35,8 +31,10 @@ body {
 
 .wrapper.footer img.app-icon {
   margin-top: 40px;
+  margin-bottom: 4px;
   width: 90px;
   height: auto;
+  border-radius: 12px;
 }
 
 .app-header {
@@ -45,21 +43,16 @@ body {
 
 .app-header img.app-icon {
   margin-top: 20px;
+  margin-bottom: 4px;
   width: 80px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 1 px solid #ccc;
   border-radius: 12px;
   display: block;
 }
 
-.app-header h1 {
-  font-family: 'Coda', cursive;
-}
-
 .app-header .desc {
   line-height: 100%;
-  font-size: 1.5rem;
-  padding-left: 20px;
 }
 
 .app-header .recomend {
@@ -73,6 +66,10 @@ body {
 
 .text-area {
   padding-left: 20px;
+}
+
+.image-area {
+  position: relative;
 }
 
 .image-area .back-image {
@@ -116,7 +113,7 @@ body {
   .app-header img.app-icon {
     width: 60px;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 0 auto 4px;
   }
   .app-header .desc {
     padding-left: 0;
@@ -131,5 +128,7 @@ body {
   .app-desc {
     padding: 5px 0 0 0;
     height: auto;
+    margin: auto;
   }
 }
+/*# sourceMappingURL=custom.css.map */
