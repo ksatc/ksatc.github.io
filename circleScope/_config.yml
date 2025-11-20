@@ -23,8 +23,8 @@ title_separator: "Mac用コミケカタログ | CircleScope"
 description: >- # this means to ignore newlines until "baseurl:"
   Mac用コミケカタログ閲覧アプリ CircleScope の公式サイトです。
   サークル検索、お気に入り管理、マップビューなど便利な機能を搭載。
-# baseurl: "https://ksatc.github.io"
-url: "/circleScope"
+baseurl: "/circleScope"
+url: "https://ksatc.github.io"
 twitter_username: circlecheckapp
 locale: "ja-JP"
 name: "CircleScope"

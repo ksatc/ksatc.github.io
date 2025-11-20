@@ -105,10 +105,34 @@ main:
 
 ## デプロイ
 
-GitHub Pagesを使用している場合：
+### GitHub Pages（GitHub Actions使用）
+
+このサイトはサブディレクトリ構成のため、GitHub Actionsを使用してデプロイします。
+
+#### 初回セットアップ
+
+1. GitHubリポジトリの **Settings** → **Pages** に移動
+2. **Source** を `GitHub Actions` に設定
+3. 完了（ワークフローファイルは既に `.github/workflows/jekyll-circlescope.yml` に配置済み）
+
+#### デプロイ手順
+
 1. 変更をコミット
+   ```bash
+   git add .
+   git commit -m "Update CircleScope site"
+   ```
+
 2. `master` ブランチにプッシュ
-3. GitHub Pagesが自動的にビルド・デプロイ
+   ```bash
+   git push origin master
+   ```
+
+3. GitHub Actionsが自動的にビルド・デプロイを実行
+   - GitHubリポジトリの **Actions** タブで進捗を確認可能
+   - ビルドには2-3分程度かかります
+
+4. デプロイ完了後、https://ksatc.github.io/circleScope/ でアクセス可能
 
 ## トラブルシューティング
 
