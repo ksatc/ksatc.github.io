@@ -1,5 +1,5 @@
 main:
   - title: "ホーム"
-    url: /circleScope/
+    url: /
   - title: "FAQ"
-    url: /circleScope/faq/
+    url: /faq/
