@@ -41,15 +41,25 @@ jobs:
         env:
           JEKYLL_ENV: production
       
-      - name: Create deployment directory
+      - name: Prepare deployment directory
         run: |
-          mkdir -p _site/circleScope
-          cp -r circleScope/_site/* _site/circleScope/
+          # 既存のファイル構造をコピー
+          mkdir -p _deploy
+          cp -r circlecheck _deploy/ 2>/dev/null || true
+          cp -r circlemap _deploy/ 2>/dev/null || true
+          cp -r kantimer _deploy/ 2>/dev/null || true
+          cp -r css _deploy/ 2>/dev/null || true
+          cp index.html _deploy/ 2>/dev/null || true
+          cp app-ads.txt _deploy/ 2>/dev/null || true
+          
+          # CircleScopeを追加
+          mkdir -p _deploy/circleScope
+          cp -r circleScope/_site/* _deploy/circleScope/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: _deploy
 
   deploy:
     environment:
