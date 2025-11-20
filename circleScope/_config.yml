@@ -1,0 +1,85 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: CircleScope
+title_separator: "Mac用コミケカタログ | CircleScope"
+description: >- # this means to ignore newlines until "baseurl:"
+  Mac用コミケカタログ閲覧アプリ CircleScope の公式サイトです。
+  サークル検索、お気に入り管理、マップビューなど便利な機能を搭載。
+# baseurl: "https://ksatc.github.io"
+url: "/circleScope"
+twitter_username: circlecheckapp
+locale: "ja-JP"
+name: "CircleScope"
+repository: "ksatc/ksatc.github.io"
+
+# SEO
+og_image: /assets/images/og-image.png
+twitter:
+  username: circlecheckapp
+  card: summary_large_image
+
+# Social Links
+social:
+  type: Organization
+  links:
+    - "https://twitter.com/circlecheckapp"
+
+# Site Author
+author:
+  name: "CircleScope Team"
+  bio: "Mac用コミケカタログ閲覧アプリの開発チーム"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/circlecheckapp"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Footer
+atom_feed:
+  hide: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author_profile: false
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
