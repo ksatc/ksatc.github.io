@@ -129,5 +129,5 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
 ## お問い合わせ
 
 バグ報告・要望・質問などは、以下からお気軽にどうぞ。
- - X（旧Twitter）：@circlecheckapp
- - メール：support@example.com
+ - X（旧Twitter）：@circlecheckapp(https://twitter.com/circlecheckapp)
+ - フォーム：[https://forms.gle/KWzWyW7szMgxzThm9](https://forms.gle/KWzWyW7szMgxzThm9)

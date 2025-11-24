@@ -3,3 +3,5 @@ main:
     url: /
   - title: "FAQ"
     url: /faq/
+  - title: "サポート"
+    url: /support/
