@@ -17,16 +17,18 @@ description: CircleScope は、コミックマーケット Webカタログのサ
   <a class="btn" href="#features">機能一覧を見る</a>
 </div>
 
-<div style="text-align: center; margin: 3em 3em; display: flex; justify-content: center;">
-  <img src="/circleScope/assets/images/app_top.png" alt="CircleScope アプリ画面" style="width: 100%; height: auto;">
+<div style="text-align: center; margin: 3em 0em; display: flex; justify-content: center;">
+  <a href="/circleScope/assets/images/app_top.png" class="image-popup">
+    <img src="/circleScope/assets/images/app_top.png" alt="CircleScope アプリ画面" style="width: 100%; height: auto;">
+  </a>
 </div>
 
 ---
 
 ## このアプリでできること {#features}
 
-CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリです。  
-基本的な「カタログ機能」に絞って、Mac でのチェック作業を快適にすることに特化しています。
+CircleScope は、**WebカタログGold(有料会員)向け**のカタログアプリです。  
+基本的な「カタログ機能」に絞って、Macでのチェック作業を快適にすることに特化しています。
 
 - ✅ **サークル一覧の高速表示**
   - Webカタログと同等のサークル情報を、Macアプリで表示
@@ -38,8 +40,6 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
   - 複数カラムで一覧＋詳細を同時に表示
 - ✅ **キーボード中心の高速検索**
   - サークル名/サークルカナ/ペンネームなどを素早く検索
-
-※ Webカタログの **カタログ閲覧・チェック作業をMacで快適にするためのアプリ**です。
 
 ---
 
@@ -84,7 +84,7 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
 ## 動作環境
 
 - 対応OS：**macOS 26 (Tahoe)以降**  
-- 対応CPU：**M1 以降**
+- 対応スペック：**M1 以降**
 - ネットワーク：初回セットアップ時に数百MB程度のカタログデータをダウンロードします
 - ディスク空き容量：1GB以上を推奨
 
@@ -98,7 +98,8 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
 
 イベント前の準備として、
 - 気になるサークルをお気に入り登録
-- メモ欄に「新刊/既刊」「チェックポイント」などを書き込む
+- メモ欄に新刊情報などを書き込む
+- お気に入りをCircle.msへ連携する
 …といった使い方を想定しています。
 
 ---
@@ -111,6 +112,8 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .screenshots a {
     flex: 0 0 calc(70% - 0.5em);
@@ -147,23 +150,6 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
     <img src="/circleScope/assets/images/screenshot-05-search.png" alt="CircleScope 検索画面">
   </a>
 </div>
-
-
----
-## よくある質問
-
-### Q. Circle.msアカウントが必要ですか？
-**A.** はい、Circle.msのGold(有料会員)アカウントが必要です。
-アプリはCircle.msのカタログデータを利用しており、ログインが必須となります。
-
-⸻
-
-### Q. C108以降でも使えますか？
-
-**A.** C107専用のアプリです。
-今後のイベント向けには、対応イベントを絞った別アプリとして提供する予定です。
-
-⸻
 
 ## お問い合わせ
 
