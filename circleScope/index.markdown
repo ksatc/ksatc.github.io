@@ -1,17 +1,24 @@
 ---
-layout: single
+layout: splash
+author_profile: false
+read_time: false
+comments: false
 title: CircleScope – コミケWebカタログ閲覧支援アプリ（macOS）
 description: CircleScope は、コミックマーケット Webカタログのサークルチェックを Mac で快適に行うためのカタログ閲覧支援アプリです。C107向け・DLsiteで配布予定。
 ---
 
 # CircleScope
-コミケ Webカタログを、**Mac の大きな画面でサクサク整理したい人向け**のカタログ閲覧支援アプリです。  
+コミケ Webカタログを、**Mac の大きな画面でサクサク整理したい人向け**のカタログアプリです。  
 対応イベントは **コミックマーケット 107（C107）専用**。価格は **800円（税込）**、DLsite にて配布予定です。
 
 <div class="buttons">
   <!-- URL はリリース時に差し替え -->
   <a class="btn primary" href="https://www.dlsite.com/soft/work/=/product_id/XXXX.html">DLsiteで購入する</a>
   <a class="btn" href="#features">機能一覧を見る</a>
+</div>
+
+<div style="text-align: center; margin: 3em 3em; display: flex; justify-content: center;">
+  <img src="/circleScope/assets/images/app_top.png" alt="CircleScope アプリ画面" style="width: 100%; height: auto;">
 </div>
 
 ---
@@ -96,17 +103,49 @@ CircleScope は、**WebカタログGold(有料会員)向け**の補助アプリ�
 
 ---
 
-## スクリーンショット（仮）
+## スクリーンショット
 
-> ※ ここに実際のスクリーンショット画像を貼る想定
-> - サークル一覧画面
-> - 検索画面
-> - サークル詳細画面
-
+<style>
+  .screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+  }
+  .screenshots a {
+    flex: 0 0 calc(70% - 0.5em);
+    max-width: 70%;
+  }
+  .screenshots img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+    .screenshots a {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+</style>
 
 <div class="screenshots">
-  <img src="/assets/images/ss_list-placeholder.png" alt="CircleScope サークル一覧画面（仮）">
-  <img src="/assets/images/ss_detail-placeholder.png" alt="CircleScope サークル詳細画面（仮）">
+  <a href="/circleScope/assets/images/screenshot-01-list.png" class="image-popup">
+    <img src="/circleScope/assets/images/screenshot-01-list.png" alt="CircleScope サークル一覧画面">
+  </a>
+  <a href="/circleScope/assets/images/screenshot-02-deck.png" class="image-popup">
+    <img src="/circleScope/assets/images/screenshot-02-deck.png" alt="CircleScope デッキビュー画面">
+  </a>
+  <a href="/circleScope/assets/images/screenshot-03-favorite.png" class="image-popup">
+    <img src="/circleScope/assets/images/screenshot-03-favorite.png" alt="CircleScope お気に入り画面">
+  </a>
+  <a href="/circleScope/assets/images/screenshot-04-map.png" class="image-popup">
+    <img src="/circleScope/assets/images/screenshot-04-map.png" alt="CircleScope マップ画面">
+  </a>
+  <a href="/circleScope/assets/images/screenshot-05-search.png" class="image-popup">
+    <img src="/circleScope/assets/images/screenshot-05-search.png" alt="CircleScope 検索画面">
+  </a>
 </div>
 
 
