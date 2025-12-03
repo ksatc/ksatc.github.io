@@ -105,3 +105,16 @@ Wi-Fiや通信速度の安定した環境で再度お試しください。
 
 ### Q. アップデート後に何か操作は必要ですか？
 **A.** 基本的には何もする必要はありません。アプリを開くだけで利用できます。
+
+---
+
+## ショートカット・操作
+
+### Q. キーボードショートカットはありますか？
+**A.** はい。以下の画像をご参照ください。
+
+<div style="text-align: center; margin: 2em 0; justify-content: center; display: flex;">
+  <a href="/circleScope/assets/images/shortcut-01-list.png" class="image-popup">
+    <img src="/circleScope/assets/images/shortcut-01-list.png" alt="ショートカット TOP" style="width: 100%; height: auto;">
+  </a>
+</div>

@@ -9,7 +9,7 @@ description: CircleScope は、コミックマーケット Webカタログのサ
 
 # CircleScope
 コミケ Webカタログを、**Mac の大きな画面でサクサク整理したい人向け**のカタログアプリです。  
-対応イベントは **コミックマーケット 107（C107）専用**。価格は **800円（税込）**、DLsite にて配布予定です。
+対応イベントは **コミックマーケット 107（C107）専用**。価格は **770円（税込）**、DLsite にて配布予定です。
 
 <div class="buttons">
   <!-- URL はリリース時に差し替え -->
@@ -61,7 +61,7 @@ CircleScope は、**WebカタログGold(有料会員)向け**のカタログア�
 
 ## 価格・配布ストア
 
-- 価格：**800円（税込）**
+- 価格：**770円（税込）**
 - 配布：**DLsite**
 
 <div class="buttons">
@@ -154,5 +154,5 @@ CircleScope は、**WebカタログGold(有料会員)向け**のカタログア�
 ## お問い合わせ
 
 バグ報告・要望・質問などは、以下からお気軽にどうぞ。
- - X（旧Twitter）：@circlecheckapp(https://twitter.com/circlecheckapp)
- - フォーム：[https://forms.gle/KWzWyW7szMgxzThm9](https://forms.gle/KWzWyW7szMgxzThm9)
+ - X（旧Twitter）：[@circlecheckapp](https://twitter.com/circlecheckapp)
+ - フォーム：[フォームリンク](https://forms.gle/KWzWyW7szMgxzThm9)
