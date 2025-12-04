@@ -4,16 +4,15 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleScope – コミケWebカタログ閲覧支援アプリ（macOS）
-description: CircleScope は、コミックマーケット Webカタログのサークルチェックを Mac で快適に行うためのカタログ閲覧支援アプリです。C107向け・DLsiteで配布予定。
+description: CircleScope は、コミックマーケット Webカタログのサークルチェックを Mac で快適に行うためのカタログ閲覧支援アプリです。C107向け・BOOTHで配布中。
 ---
 
 # CircleScope
 コミケ Webカタログを、**Mac の大きな画面でサクサク整理したい人向け**のカタログアプリです。  
-対応イベントは **コミックマーケット 107（C107）専用**。価格は **770円（税込）**、DLsite にて配布予定です。
+対応イベントは **コミックマーケット 107（C107）専用**。価格は **800円（税込）**、BOOTH にて配布中です。
 
 <div class="buttons">
-  <!-- URL はリリース時に差し替え -->
-  <a class="btn primary" href="https://www.dlsite.com/soft/work/=/product_id/XXXX.html">DLsiteで購入する</a>
+  <a class="btn primary" href="https://linelab.booth.pm/items/7727943">BOOTHで購入する</a>
   <a class="btn" href="#features">機能一覧を見る</a>
 </div>
 
@@ -61,14 +60,12 @@ CircleScope は、**WebカタログGold(有料会員)向け**のカタログア�
 
 ## 価格・配布ストア
 
-- 価格：**770円（税込）**
-- 配布：**DLsite**
+- 価格：**800円（税込）**
+- 配布：**BOOTH**
 
 <div class="buttons">
-  <a class="btn primary" href="https://www.dlsite.com/soft/work/=/product_id/XXXX.html">DLsiteで購入する</a>
+  <a class="btn primary" href="https://linelab.booth.pm/items/7727943">BOOTHで購入する</a>
 </div>
-
-※ リンク先はリリース時に更新します。
 
 ---
 
