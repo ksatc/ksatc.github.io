@@ -4,9 +4,8 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleScope – プライバシーポリシー
+permalink: /privacy/
 ---
-
-# プライバシーポリシー
 
 ## 1. 基本方針
 本アプリケーション「CircleScope for C107」（以下「本アプリ」）は、利用者のプライバシーを尊重し、取得する情報を適切に管理・保護することを重要な責務と考えています。
