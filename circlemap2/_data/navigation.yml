@@ -1,0 +1,7 @@
+main:
+  - title: "ホーム"
+    url: /
+  - title: "サポート"
+    url: /support/
+  - title: "プライバシーポリシー"
+    url: /privacy/

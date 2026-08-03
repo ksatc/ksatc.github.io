@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: CircleMap2
+title_separator: "コミケ地図作成アプリ | CircleMap2"
+description: >- # this means to ignore newlines until "baseurl:"
+  コミケ地図作成アプリ CircleMap2 の公式サイトです。
+  自由レイアウト、地図の画像保存、チェックリスト連携など便利な機能を搭載。
+baseurl: "/circlemap2"
+url: "https://ksatc.github.io"
+locale: "ja-JP"
+name: "CircleMap2"
+repository: "ksatc/ksatc.github.io"
+
+# SEO
+og_image: /assets/images/map-main.png
+
+# Site Author
+author:
+  name: "CircleMap2 開発チーム"
+  bio: "コミケ地図作成アプリの開発チーム"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Footer
+atom_feed:
+  hide: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author_profile: false
+
+# Exclude from processing.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

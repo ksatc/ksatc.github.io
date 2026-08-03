@@ -1,0 +1,44 @@
+# CircleCheck サイト
+
+このディレクトリは、CircleCheck（iPhone用コミケカタログチェックアプリ）の公式サイトです。
+構成・運用方法は [circleScope](../circleScope/) / [circlemap2](../circlemap2/) を踏襲しています。
+
+## 技術スタック
+
+- **Jekyll**: 静的サイトジェネレーター
+- **テーマ**: [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
+- **プラグイン**: jekyll-feed, jekyll-seo-tag, jekyll-sitemap
+
+## ディレクトリ構成
+
+```
+circlecheck/
+├── _config.yml          # サイト全体の設定ファイル
+├── _data/
+│   └── navigation.yml   # ヘッダーナビゲーション設定
+├── assets/
+│   ├── images/          # 画像
+│   └── videos/          # 機能紹介の動画
+├── index.markdown       # トップページ
+├── privacy.markdown     # プライバシーポリシー（permalink: /privacy.html で旧URLを維持）
+├── Gemfile              # Ruby依存関係
+└── README.md            # このファイル
+```
+
+## ローカル開発
+
+```bash
+cd circlecheck
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+`http://localhost:4000/circlecheck/` で確認できます。
+
+## デプロイ
+
+`.github/workflows/jekyll-pages.yml` により、`circlecheck/**` への push で自動ビルド・デプロイされます（circleScope/circlemap2と同じ統合ワークフロー）。
+
+## 注意事項
+
+- プライバシーポリシーのURLはApp Store Connectに登録されている可能性があるため、`/privacy.html`のまま維持しています（circlemap2の`/privacy/`パターンとは異なります）。

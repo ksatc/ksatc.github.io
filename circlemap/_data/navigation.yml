@@ -1,0 +1,5 @@
+main:
+  - title: "ホーム"
+    url: /
+  - title: "プライバシーポリシー"
+    url: /privacy.html

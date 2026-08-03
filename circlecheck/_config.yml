@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: CircleCheck
+title_separator: "コミケカタログチェックアプリ | CircleCheck"
+description: >- # this means to ignore newlines until "baseurl:"
+  iPhone用コミケカタログチェックアプリ CircleCheck の公式サイトです。
+  オフラインチェック、疲れない一覧表示、Pixiv/Twitter連携など便利な機能を搭載。
+baseurl: "/circlecheck"
+url: "https://ksatc.github.io"
+locale: "ja-JP"
+name: "CircleCheck"
+repository: "ksatc/ksatc.github.io"
+
+# SEO
+og_image: /assets/images/header.png
+
+# Site Author
+author:
+  name: "CircleCheck 開発チーム"
+  bio: "コミケカタログチェックアプリの開発チーム"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Footer
+atom_feed:
+  hide: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author_profile: false
+
+# Exclude from processing.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
