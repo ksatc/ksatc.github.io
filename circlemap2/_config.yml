@@ -21,6 +21,8 @@ repository: "ksatc/ksatc.github.io"
 
 # SEO
 og_image: /assets/images/map-main.png
+twitter:
+  username: circlecheckapp
 
 # Site Author
 author:
@@ -46,6 +48,9 @@ defaults:
     values:
       layout: "default"
       author_profile: false
+      # header.og_image を指定すると、テーマが twitter:card を summary_large_image で出力する
+      header:
+        og_image: /assets/images/map-main.png
 
 # Exclude from processing.
 exclude:
