@@ -80,6 +80,14 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
   <a class="btn primary" href="https://apps.apple.com/jp/app/circlemap2/id6796397015" target="_blank" rel="noopener">App Storeで入手</a>
 </div>
 
+※iPad用アプリ
+
+---
+
+## Macならこちら
+
+Macでカタログチェックをするなら [CircleScope](/circleScope/) がおすすめ。コミケWebカタログをMacの大きな画面でサクサク整理できる閲覧支援アプリです。事前チェックはMacで、地図づくりはiPadで、という使い分けもできます。
+
 ---
 
 ## お問い合わせ
