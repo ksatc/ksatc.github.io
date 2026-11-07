@@ -10,6 +10,9 @@ description: CircleMapは、コミックマーケットのサークル配置を�
 # CircleMap
 最高の地図でコミケに挑もう！
 
+**後継アプリ「CircleMap2」が登場しました！** さらに見やすく・使いやすく進化した地図作成アプリです。詳しくは[CircleMap2のページ](/circlemap2/)をご覧ください。
+{: .notice--info}
+
 [ダウンロードはこちら](#store){: .btn .btn--primary} [機能一覧を見る](#features){: .btn}
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-hashtags="コミケ">ツイート</a>
@@ -97,6 +100,10 @@ DropBox連携をすることでDropBoxへの保存も可能！
 [App Storeでダウンロード](https://apps.apple.com/jp/app/circlemap/id945655161?itsct=apps_box_badge&itscg=30200){: .btn .btn--primary}
 
 ※iPad用アプリ
+
+後継アプリの[CircleMap2](/circlemap2/)もあわせてご検討ください。
+
+[CircleMap2をApp Storeでダウンロード](https://apps.apple.com/jp/app/circlemap2/id6796397015){: .btn}
 
 ---
 
