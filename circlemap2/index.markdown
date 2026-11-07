@@ -74,13 +74,22 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 
 ---
 
+## 利用に必要なもの
+
+- **コミックマーケットWebカタログの有料会員アカウント（WebカタログGold / Circle.ms）**
+  - カタログデータの取得に利用します
+- インターネット接続
+  - カタログデータの取得時に必要です
+
+---
+
 ## ダウンロード {#store}
 
 <div class="buttons">
   <a class="btn primary" href="https://apps.apple.com/jp/app/circlemap2/id6796397015" target="_blank" rel="noopener">App Storeで入手</a>
 </div>
 
-※iPad用アプリ
+※iPad用アプリ。ご利用には[WebカタログGold会員](#利用に必要なもの)が必要です。
 
 ---
 
