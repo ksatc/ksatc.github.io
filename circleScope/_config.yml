@@ -31,10 +31,9 @@ name: "CircleScope"
 repository: "ksatc/ksatc.github.io"
 
 # SEO
-og_image: /assets/images/og-image.png
+og_image: /assets/images/app_top.png
 twitter:
   username: circlecheckapp
-  card: summary_large_image
 
 # Social Links
 social:
@@ -70,6 +69,9 @@ defaults:
     values:
       layout: "default"
       author_profile: false
+      # header.og_image を指定すると、テーマが twitter:card を summary_large_image で出力する
+      header:
+        og_image: /assets/images/app_top.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.
