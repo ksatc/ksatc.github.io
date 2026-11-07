@@ -29,13 +29,11 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 - ✅ **様々な地図が作れる**
   - サークルの表示を複数用意。線の太さや用紙サイズなどの細かい設定であなたの地図作りをサポートします。
 - ✅ **地図を画像に保存できる**
-  - 作った地図は印刷に最適なサイズの画像として保存できるので、紙の地図も綺麗に印刷できます。
-- ✅ **タップでサークル詳細をすぐ確認**
-  - 地図上のサークルカットをタップするだけで、サークル名・ペンネーム・ジャンル・配置・補足事項がその場で見られます。
-- ✅ **お気に入りを一覧でチェック**
-  - チェックしたサークルを日程・ホールごとにまとめて一覧表示。会場を回る前の最終確認にも便利です。
+  - 作った地図は印刷に最適なサイズの画像として保存できるので、紙の地図も綺麗に印刷して会場に持ち出せます。
+- ✅ **サークル情報をすぐ確認**
+  - 地図からサークルの詳細を確認したり、お気に入りやサークル一覧から目当てのサークルを探したりできます。
 - ✅ **カタログチェック連携**
-  - アプリから直接Pixiv/Twitterの起動が可能。チェック作業がはかどります。
+  - アプリから直接pixiv / Xの起動が可能。チェック作業がはかどります。
 - ✅ **チェックリスト連携**
   - Webカタログ・カタロムでつくったチェックリストを取り込んで地図作成、という流れにも対応。
 
@@ -51,9 +49,13 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 <a href="/circlemap2/assets/images/map-split.png" class="image-popup"><img src="/circlemap2/assets/images/map-split.png" alt="地図を用紙分割して配置した画面" style="display: block; max-width: 100%; margin: 2em auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></a>
 
 ### 表示スタイルを混在＋90度回転
-サークルカットを画像表示・テキスト表示で混在させて配置可能。90度回転させれるので密集した島をすっきり収められます。
+サークルカットを画像表示・テキスト表示で混在させて配置可能。90度回転させられるので、密集した島もすっきり収められます。
 
 <a href="/circlemap2/assets/images/map-multi-layout.png" class="image-popup"><img src="/circlemap2/assets/images/map-multi-layout.png" alt="表示スタイルを混在・回転させた地図画面" style="display: block; max-width: 100%; margin: 2em auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></a>
+
+---
+
+## サークルを探す・確認する
 
 ### タップしてサークル詳細を確認
 地図上のサークルカットをタップするだけで、サークル名・ペンネーム・ジャンル・配置・補足事項などの詳細をその場で確認できます。
@@ -72,16 +74,10 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 
 ---
 
-## ファイル保存
-
-アプリで作った地図を画像ファイルとして保存可能。印刷して会場に持ち出せます。
-
----
-
 ## ダウンロード {#store}
 
 <div class="buttons">
-  <a class="btn primary" href="#">App Storeで入手（準備中）</a>
+  <a class="btn primary" href="https://apps.apple.com/jp/app/circlemap2/id6796397015" target="_blank" rel="noopener">App Storeで入手</a>
 </div>
 
 ---
