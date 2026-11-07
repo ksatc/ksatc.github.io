@@ -20,7 +20,8 @@ name: "CircleMap2"
 repository: "ksatc/ksatc.github.io"
 
 # SEO
-og_image: /assets/images/map-main.png
+og_image: /assets/images/og-image.png
+og_image_alt: "CircleMap2 – 最高の地図でコミケに挑もう！ iPad用の地図作成アプリ"
 twitter:
   username: circlecheckapp
 
@@ -50,7 +51,7 @@ defaults:
       author_profile: false
       # header.og_image を指定すると、テーマが twitter:card を summary_large_image で出力する
       header:
-        og_image: /assets/images/map-main.png
+        og_image: /assets/images/og-image.png
 
 # Exclude from processing.
 exclude:
