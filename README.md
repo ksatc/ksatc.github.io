@@ -63,8 +63,3 @@ permalink: /circlemap2/new-page/
   - `/circlecheck/privacy.html`、`/circlemap/privacy.html`
   - `/circlemap2/privacy/`、`/circleScope/privacy/`
 - 本文中のリンクや画像は `/circlemap2/assets/...` のように、アプリのディレクトリから始まる絶対パスで書く。
-
-## TODO
-
-- [ ] CircleMap2: `circlemap2/assets/images/` の画像を実際のスクリーンショットに差し替える
-- [ ] CircleMap2: App Store 配布リンクを確定させる
