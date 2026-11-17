@@ -49,6 +49,10 @@ defaults:
       app: circlemap2
       header:
         og_image: /circlemap2/assets/images/og-image.png
+  - scope:
+      path: "kantimer"
+    values:
+      app: kantimer
 
 exclude:
   - README.md
@@ -57,4 +61,3 @@ exclude:
   - Gemfile.lock
   - vendor
   - .vscode
-  - kantimer/sass
