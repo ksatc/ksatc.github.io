@@ -4,7 +4,7 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleCheck – プライバシーポリシー
-permalink: /privacy.html
+permalink: /circlecheck/privacy.html
 ---
 
 CircleCheck(以降 当アプリ)では以下のポリシーに従って情報を取り扱うものとします。

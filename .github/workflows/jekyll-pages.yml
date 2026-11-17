@@ -1,13 +1,8 @@
-name: Deploy Jekyll sites to Pages
+name: Deploy site to Pages
 
 on:
   push:
     branches: ["master"]
-    paths:
-      - 'circleScope/**'
-      - 'circlemap2/**'
-      - 'circlecheck/**'
-      - 'circlemap/**'
   workflow_dispatch:
 
 permissions:
@@ -36,77 +31,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build CircleScope with Jekyll
-        run: |
-          cd circleScope
-          bundle install
-          bundle exec jekyll build --baseurl "/circleScope"
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-
-      - name: Build CircleMap2 with Jekyll
-        run: |
-          cd circlemap2
-          bundle install
-          bundle exec jekyll build --baseurl "/circlemap2"
-        env:
-          JEKYLL_ENV: production
-
-      - name: Build CircleCheck with Jekyll
-        run: |
-          cd circlecheck
-          bundle install
-          bundle exec jekyll build --baseurl "/circlecheck"
-        env:
-          JEKYLL_ENV: production
-
-      - name: Build CircleMap with Jekyll
-        run: |
-          cd circlemap
-          bundle install
-          bundle exec jekyll build --baseurl "/circlemap"
-        env:
-          JEKYLL_ENV: production
-
-      - name: Prepare deployment directory
-        run: |
-          # 既存のファイル構造をコピー
-          mkdir -p _deploy
-          cp -r kantimer _deploy/ 2>/dev/null || true
-          cp -r css _deploy/ 2>/dev/null || true
-          cp index.html _deploy/ 2>/dev/null || true
-          cp app-ads.txt _deploy/ 2>/dev/null || true
-
-          # Jekyllサイトを追加
-          mkdir -p _deploy/circleScope
-          cp -r circleScope/_site/* _deploy/circleScope/
-
-          mkdir -p _deploy/circlemap2
-          cp -r circlemap2/_site/* _deploy/circlemap2/
-
-          mkdir -p _deploy/circlecheck
-          cp -r circlecheck/_site/* _deploy/circlecheck/
-
-          mkdir -p _deploy/circlemap
-          cp -r circlemap/_site/* _deploy/circlemap/
-
-      - name: Debug - List deployment directory
-        run: |
-          echo "=== Deployment directory structure ==="
-          ls -la _deploy/
-          echo "=== CircleScope directory ==="
-          ls -la _deploy/circleScope/ || echo "circleScope directory not found"
-          echo "=== CircleMap2 directory ==="
-          ls -la _deploy/circlemap2/ || echo "circlemap2 directory not found"
-          echo "=== CircleCheck directory ==="
-          ls -la _deploy/circlecheck/ || echo "circlecheck directory not found"
-          echo "=== CircleMap directory ==="
-          ls -la _deploy/circlemap/ || echo "circlemap directory not found"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _deploy
+          path: _site
 
   deploy:
     environment:

@@ -3,7 +3,7 @@ layout: splash
 author_profile: false
 read_time: false
 comments: false
-permalink: /c107/
+permalink: /circleScope/c107/
 title: CircleScope – コミケWebカタログ閲覧支援アプリ（macOS）
 description: CircleScope は、コミックマーケット Webカタログのサークルチェックを Mac で快適に行うためのカタログ閲覧支援アプリです。C107向け・無料でBOOTHにて配布中。
 ---

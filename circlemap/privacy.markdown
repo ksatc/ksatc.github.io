@@ -4,7 +4,7 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleMap – プライバシーポリシー
-permalink: /privacy.html
+permalink: /circlemap/privacy.html
 ---
 
 CircleMap(以降 当アプリ)では以下のポリシーに従って情報を取り扱うものとします。

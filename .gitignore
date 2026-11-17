@@ -3,3 +3,11 @@ node_modules/*
 circlecheck/temp
 circlemap/temp
 !.gitkeep
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/

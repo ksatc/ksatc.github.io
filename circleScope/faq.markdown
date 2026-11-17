@@ -1,7 +1,7 @@
 ---
 layout: single
 title: よくある質問（FAQ）：CircleScope – コミケWebカタログ閲覧支援アプリ（macOS）
-permalink: /faq/
+permalink: /circleScope/faq/
 ---
 
 ## ログイン・初期設定

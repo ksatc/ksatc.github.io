@@ -7,7 +7,7 @@ toc: true
 toc_label: "目次"
 title: CircleMap2 – 使い方ガイド
 description: CircleMap2 のセットアップから、地図の作成・印刷、サークルのチェックまでの使い方をまとめています。
-permalink: /guide/
+permalink: /circlemap2/guide/
 ---
 
 CircleMap2 のはじめかたから、地図を作って印刷するまでの流れを説明します。

@@ -4,7 +4,7 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleMap2 – サポート
-permalink: /support/
+permalink: /circlemap2/support/
 ---
 
 CircleMap2 に関するご質問や不具合の報告は、下記をご確認のうえご連絡ください。
