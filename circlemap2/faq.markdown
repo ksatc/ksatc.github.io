@@ -7,7 +7,7 @@ toc: true
 toc_label: "目次"
 title: CircleMap2 – よくある質問
 description: CircleMap2 の購入・アップグレードパック、セットアップ、地図づくりについてのよくある質問です。
-permalink: /faq/
+permalink: /circlemap2/faq/
 ---
 
 使い方の流れは[使い方ガイド](/circlemap2/guide/)をご覧ください。ここで解決しない場合は[サポート](/circlemap2/support/)からお問い合わせください。

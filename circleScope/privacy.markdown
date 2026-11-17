@@ -4,7 +4,7 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleScope – プライバシーポリシー
-permalink: /privacy/
+permalink: /circleScope/privacy/
 ---
 
 ## 1. 基本方針

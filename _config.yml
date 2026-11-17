@@ -1,0 +1,60 @@
+# ksatc.github.io — 全アプリのサイトを1つの Jekyll でビルドする
+#
+# アプリごとの設定（サイト名・説明・OGP画像・ナビなど）は _data/apps.yml にあり、
+# 下の defaults でディレクトリごとに `app:` を割り当てて参照する。
+# この設定ファイルは `jekyll serve` 中には再読み込みされないので、変更したら再起動すること。
+
+title: ksatc
+description: ksatc のアプリ公式サイト
+url: "https://ksatc.github.io"
+baseurl: ""
+locale: "ja-JP"
+repository: "ksatc/ksatc.github.io"
+
+twitter:
+  username: circlecheckapp
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+atom_feed:
+  hide: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author_profile: false
+  - scope:
+      path: "circleScope"
+    values:
+      app: circleScope
+      header:
+        og_image: /circleScope/assets/images/app_top.png
+  - scope:
+      path: "circlecheck"
+    values:
+      app: circlecheck
+  - scope:
+      path: "circlemap"
+    values:
+      app: circlemap
+  - scope:
+      path: "circlemap2"
+    values:
+      app: circlemap2
+      header:
+        og_image: /circlemap2/assets/images/og-image.png
+
+exclude:
+  - README.md
+  - "*/README.md"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .vscode
+  - kantimer/sass

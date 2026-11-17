@@ -4,7 +4,7 @@ author_profile: false
 read_time: false
 comments: false
 title: CircleMap2 – プライバシーポリシー
-permalink: /privacy/
+permalink: /circlemap2/privacy/
 ---
 
 本アプリケーション「CircleMap2」（以下「本アプリ」）における利用者情報の取扱いについて説明します。

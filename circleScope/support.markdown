@@ -1,7 +1,7 @@
 ---
 layout: single
 title: サポート：CircleScope – コミケWebカタログ閲覧支援アプリ（macOS）
-permalink: /support/
+permalink: /circleScope/support/
 ---
 
 ## サポートについて
