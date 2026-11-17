@@ -77,3 +77,19 @@ circlemap2:
       url: /circlemap2/support/
     - title: "プライバシーポリシー"
       url: /circlemap2/privacy/
+
+kantimer:
+  title: 艦隊たいまー
+  title_separator: "艦これ用アラームアプリ | 艦隊たいまー"
+  description: >-
+    艦これ用アラームアプリ 艦隊たいまー の公式サイトです。
+    遠征・建造などの待ち時間をまとめて管理できます。
+  home: /kantimer/
+  og_image: /kantimer/img/app-icon.png
+  author:
+    name: "ksatc"
+  nav:
+    - title: "ホーム"
+      url: /kantimer/
+    - title: "プライバシーポリシー"
+      url: /kantimer/privacy.html

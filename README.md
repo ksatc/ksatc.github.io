@@ -15,7 +15,7 @@ ksatc のアプリ公式サイト（https://ksatc.github.io/）。リポジト�
 ├── circlecheck/           # CircleCheck（iPhone）
 ├── circlemap/             # CircleMap（iPad・旧版）
 ├── circlemap2/            # CircleMap2（iPad）
-├── kantimer/              # 艦隊たいまー（Bootstrap の静的 HTML。Jekyll はそのままコピーする）
+├── kantimer/              # 艦隊たいまー（iPhone）
 ├── app-ads.txt
 └── Gemfile
 ```
