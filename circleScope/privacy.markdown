@@ -14,7 +14,7 @@ permalink: /circleScope/privacy/
 
 ---
 
-## ２. 取得する情報
+## 2. 取得する情報
 
 ### 2.1 Circle.msから取得する情報
 本アプリは、コミケWebカタログ（Circle.ms）が提供する公式 API を利用しています。  

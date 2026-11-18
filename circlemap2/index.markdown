@@ -43,7 +43,7 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 - ✅ **カタログチェック連携**
   - アプリから直接pixiv / Xの起動が可能。チェック作業がはかどります。
 - ✅ **チェックリスト連携**
-  - Webカタログ・カタロムでつくったチェックリストを取り込んで地図作成、という流れにも対応。
+  - Webカタログでつくったチェックリストを取り込んで地図作成、という流れにも対応。
 
 ---
 
@@ -98,7 +98,7 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
 
 ---
 
-## 利用に必要なもの
+## 利用に必要なもの {#requirements}
 
 - **コミックマーケットWebカタログの有料会員アカウント（WebカタログGold / Circle.ms）**
   - カタログデータの取得に利用します
@@ -131,7 +131,7 @@ description: CircleMap2 は、コミックマーケットのサークル配置�
   <a class="btn primary" href="https://apps.apple.com/jp/app/circlemap2/id6796397015" target="_blank" rel="noopener">App Storeで入手</a>
 </div>
 
-※iPad用アプリ。ご利用には[WebカタログGold会員](#利用に必要なもの)が必要です。
+※iPad用アプリ。ご利用には[WebカタログGold会員](#requirements)が必要です。
 
 ---
 
