@@ -46,14 +46,14 @@ CircleCheckはサークルカットを一覧に表示するのではなく常に
 </video>
 
 ### 起動したらすぐにチェックできる
-CircleCheckでは最後に表示していたサークルを記憶してるので、起動したすぐにチェック作業を再開できます。
+CircleCheckでは最後に表示していたサークルを記憶しているので、起動してすぐにチェック作業を再開できます。
 
 <video src="/circlecheck/assets/videos/check-setup.mp4" class="app-movie" webkit-playsinline playsinline muted autoplay loop type="video/mp4" style="display: block; max-width: 100%; margin: 2em auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <p>video要素がサポートされていないブラウザでご覧になっています。</p>
 </video>
 
 ### Pixiv,Twitterに直接アクセス
-CircleCheckではPixiv,Twitterアプリを起動が可能！作家のページを直接開けるので新刊情報などをすぐにチェックできます。
+CircleCheckからPixiv・Twitterアプリを起動できます！作家のページを直接開けるので新刊情報などをすぐにチェックできます。
 
 <video src="/circlecheck/assets/videos/check-pixiv.mp4" class="app-movie" webkit-playsinline playsinline muted autoplay loop type="video/mp4" style="display: block; max-width: 100%; margin: 2em auto; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <p>video要素がサポートされていないブラウザでご覧になっています。</p>
@@ -76,7 +76,7 @@ CircleCheckではPixiv,Twitterアプリを起動が可能！作家のページ�
 
 ## 地図作りに便利な姉妹アプリ
 
-[CircleMap](/circlemap/)はコミケの地図作成に特化したiPad専用アプリです。カタロムやWebカタログで保存した地図より見やすい地図を作る機能を備えています。
+[CircleMap2](/circlemap2/)はコミケの地図作成に特化したiPad専用アプリです。Webカタログで保存した地図より見やすい地図を作る機能を備えています。
 
 ---
 
